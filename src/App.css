@@ -1,0 +1,53 @@
+/* Movie Grid */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Movie Card */
+.movie-card {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+}
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Movie Details */
+.movie-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.movie-details img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Play Button */
+.play-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e50914; /* Netflix red */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Video Player */
+.video-player {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
